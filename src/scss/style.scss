@@ -1,0 +1,36 @@
+@charset "UTF-8";
+@import "compass";
+@import "compass/reset";
+@import "utilities";
+
+/* base */
+html {
+	font-size: 10px;
+}
+
+body {
+    font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    -webkit-text-size-adjust: 100%;
+}
+
+a {
+	text-decoration: none;
+	&:link,&:hover, &:active,&:visited {
+		text-decoration: none;
+	}
+}
+
+/*------------------
+header
+------------------*/
+.header {
+@media screen and (max-width: 767px) {
+}
+}
+
+/*------------------
+footer
+------------------*/
